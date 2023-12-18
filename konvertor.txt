@@ -1,0 +1,20 @@
+const value = "kg";
+const amount = 1;
+
+switch (value) 
+{
+    case("kl"):
+        console.log(amount*1000 + " meters");
+        break;
+
+    case("hours"):
+        console.log(amount*60 + " minutes");
+        break;
+
+    case ("kg"):
+        console.log(amount*1000 + " gramm");
+        break;
+        
+    default:
+        console.log("Please enter true value");
+}
